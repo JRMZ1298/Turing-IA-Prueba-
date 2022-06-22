@@ -28,6 +28,7 @@
 
 header .logo img {
     max-height: 70px;
+    margin-left: 20px;
 }
 
 @media (max-width: 991px) {
