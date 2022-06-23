@@ -1,3 +1,4 @@
+/*Estilos de la barra superior de informacion*/
 #topbar {
     background: #106eea;
     height: 40px;
@@ -26,7 +27,7 @@
     font-weight: bold;
     color: #fbfbfb;
 }
-
+/*Estilos de la barra de navegacion*/
 header .logo img {
     max-height: 70px;
     margin-left: 20px;
@@ -50,7 +51,7 @@ header .logo img {
     line-height: 0;
     transition: 0.5s;
 }
-
+/*Estilos de las imagenes principales para las paginas index, nosotros, servicios y tableau*/
 #angel {
     background: url(../img/index/mex.png) top left;
 }
@@ -113,6 +114,7 @@ section {
     text-align: center;
 }
 
+/* Estilo de la segunda imagen que esta en la pagina index*/
 .tableau {
     background-image: url(../img/index/tableau.png);
     background-repeat: no-repeat;
@@ -122,6 +124,7 @@ section {
     height: 600px;
 }
 
+/*Seccion y modal de contacto*/
 .info-box {
     color: #444444;
     font-weight: 800;
@@ -143,19 +146,23 @@ a i {
     color: white;
 }
 
+/*Tamaño de las imagenes sobre las metodologias*/
 #metodologias img{
     width: 200px;
 }
 
+/*Imagenes mostradas dentro de todas las paginas*/
 #metodologias #bi img, #services #bm img, #builder #bi img, #conductor #bi img, #desktop #bi img, #cloud #bi img, #serv #bi img, #mana #bi img{
     width: 500px;
     overflow: hidden;
 }
 
+/*Seccion de trofeos*/
 #trofeos img{
     width: 300px;
 }
 
+/*Seccion de socios*/
 #socios{
     padding-top: 0;
 }
