@@ -150,6 +150,10 @@ a i {
     width: 300px;
 }
 
+#socios{
+    padding-top: 0;
+}
+
 #socios img{
     width: 90px;
 }
