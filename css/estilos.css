@@ -63,9 +63,14 @@ header .logo img {
     background: url(../img/servicios/servicios.jpg) top left;
 }
 
+#grafica{
+    background: url(../img/tableau/graficos2.jpg) top left;
+}
+
 #angel,
 #nosotros,
-#servicios {
+#servicios,
+#grafica {
     width: 100%;
     height: 75vh;
     background-size: cover;
@@ -73,7 +78,8 @@ header .logo img {
 }
 
 #angel:before,
-#nosotros:before {
+#nosotros:before,
+#grafica::before {
     content: "";
     background: rgba(255, 255, 255, 0.0);
     position: absolute;
@@ -156,4 +162,12 @@ a i {
 
 #socios img{
     width: 90px;
+}
+
+#conectores img{
+    width: 500px;
+}
+
+#server img{
+    width: 300px;
 }
