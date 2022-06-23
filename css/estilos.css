@@ -90,7 +90,7 @@ header .logo img {
 }
 
 section {
-    padding: 40px 0;
+    padding: 20px 0;
     overflow: hidden;
 }
 
@@ -111,7 +111,6 @@ section {
 
 .section-title {
     text-align: center;
-    padding-bottom: 30px;
 }
 
 .tableau {
@@ -144,11 +143,11 @@ a i {
     color: white;
 }
 
-#metodologias img, #services img {
+#metodologias img{
     width: 200px;
 }
 
-#metodologias #bi img, #services #bm img {
+#metodologias #bi img, #services #bm img, #builder #bi img, #conductor #bi img, #desktop #bi img, #cloud #bi img{
     width: 500px;
 }
 
